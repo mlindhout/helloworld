@@ -4,7 +4,7 @@ metadata:
   name: {{ template "helloworld.fullname" . }}
   labels:
     app: {{ template "helloworld.name" . }}
-    chart: {{ template "hhelloworld.chart" . }}
+    chart: {{ template "helloworld.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
